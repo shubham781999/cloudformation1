@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Simple template to create an S3 bucket
+
+Resources:
+  CloudS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: clouds311990011111
+
+Outputs:
+  S3BucketName:
+    Description: S3 bucket name
+    Value: !Ref CloudS3
