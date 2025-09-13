@@ -5,7 +5,7 @@ Resources:
   CloudS3:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: clouds31199555111oier
+      BucketName: clouds31199555111
 
 Outputs:
   S3BucketName:
